@@ -8,7 +8,7 @@
 
 
 #### Arduino
-- connect Arduino to Raspi
+- connect Arduino to RaspberryPi
 - run [temperature_co2_json.ino](https://github.com/patrickhaetti/MeasurementDataStreamer/blob/main/arduino_files/temperature_co2_json/temperature_co2_json.ino)
 
 - check ip
@@ -18,7 +18,7 @@
 
 
 #### Grafana
-- open in Browser http://<ip from streaming machine>:3000
+- open in Browser http://\<ip from streaming machine\>:3000
 - username + password is 'admin'
 - in Dashboards chose DataSource (name given from setting up)
 - From -> select Measurement. This is "measurement":"Co2&Temperature with Arduino" from python file
