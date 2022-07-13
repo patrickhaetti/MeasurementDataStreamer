@@ -1,3 +1,11 @@
 
 About measurement device
 https://joy-it.net/de/products/SEN-CCS811V1
+
+Arduino seed Temperature
+https://wiki.seeedstudio.com/Grove-Temperature_Sensor_V1.2/
+
+
+Grafana, InfluxDB, telegraf
+https://www.youtube.com/watch?v=pE7zU4MOqC8
+https://grafana.com/docs/grafana/next/setup-grafana/installation/rpm/

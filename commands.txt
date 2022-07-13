@@ -1,0 +1,65 @@
+Grafana
+-------
+sudo service grafana-server start
+
+systemctl status grafana-server
+
+sudo systemctl enable grafana-server.service
+
+logs:
+sudo cat /var/log/grafana/grafana.log
+
+
+configuration
+/etc/grafana/grafana.ini
+
+
+
+------------------------------------------------------------------------
+InfluxDB
+--------
+
+sudo nano /etc/influxdb/influxdb.conf -> change auth-enabled to false if changing username
+
+systemctl start influxdb	starts influxdb
+influx				connect with influx.  "help" for more info
+
+
+
+systemctl start influxdb
+systemctl enable influxdb
+systemctl restart influxdb
+systemctl stop influxdb
+
+
+
+------------------------------------------------------------------------
+telegraf
+--------
+
+cat /etc/telegraf/telegraf.conf
+-> make sure urls in [[outputs.influxdb]] is ip from grafana dashboard and database = "telegraf"
+and  ## HTTP Basic Auth
+username = "admin"
+password = "admin"
+
+
+
+sudo systemctl start telegraf
+systemctl restart telegraf
+sudo systemctl enable  telegraf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
