@@ -1,0 +1,15 @@
+1. set up arduino
+
+2. grafana
+a) start:
+sudo service grafana-server start
+
+b) check status
+systemctl status grafana-server
+
+c) enable service
+sudo systemctl enable grafana-server.service
+   
+d) go to grafana dashboard: IP from host +:3000
+e) user, pw should be "admin"   
+f) in grafana, chose Datasource "InfluxDB"
