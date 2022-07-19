@@ -1,0 +1,4 @@
+13.07.2022 15:30- 14.07.2022 22:00	1x pro sekunde gemessen
+14.07.2022 22:00 - 15.07.2022 10:30	alle 15 min gemessen
+15.07.2022 10:30 - 1200			alle 1mins gemessen
+15.07.202 1200				1x pro sekunde gemessen
