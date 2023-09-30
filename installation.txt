@@ -1,6 +1,8 @@
 1. set up arduino
 
 2. grafana
+https://grafana.com/tutorials/install-grafana-on-raspberry-pi/
+
 a) start:
 sudo service grafana-server start
 
