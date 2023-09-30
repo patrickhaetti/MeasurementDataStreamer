@@ -31,14 +31,25 @@ systemctl enable influxdb
 systemctl restart influxdb
 systemctl stop influxdb
 
+Create Database:
 
+influx
+> CREATE DATABASE my_database_name
+
+USE my_database_name
 
 ------------------------------------------------------------------------
 telegraf
 --------
 
-cat /etc/telegraf/telegraf.conf
+sudo nano /etc/telegraf/telegraf.conf
 -> make sure urls in [[outputs.influxdb]] is ip from grafana dashboard and database = "telegraf"
+[[outputs.influxdb]]
+  urls = ["http://<raspberryIP>:8086"]
+  database = "my_database_name"
+
+
+
 and  ## HTTP Basic Auth
 username = "admin"
 password = "admin"
