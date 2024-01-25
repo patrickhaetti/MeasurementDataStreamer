@@ -18,8 +18,13 @@
 
 
 #### Grafana
++ Installation Guide: [https://pimylifeup.com/raspberry-pi-influxdb/](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/)
 - open in Browser http://\<ip from streaming machine\>:3000
 - username + password is 'admin'
 - in Dashboards chose DataSource (name given from setting up)
 - From -> select Measurement. This is "measurement":"Co2&Temperature with Arduino" from python file
 - Select: this are "fields": {...} from Python file
+
+
+#### InfluxDB
++ Installation Guide: https://pimylifeup.com/raspberry-pi-influxdb/
