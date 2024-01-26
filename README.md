@@ -1,7 +1,7 @@
 # MeasurementDataStreamer
  * Instructions for setting up Grafana, InfluxDB and Telegraf on RaspberryPi
  * Database name in this case is "newmeasurementdatabase" 
-
+ * Only for measuring with RaspberryPi, for RaspberryPi combined with Arduino see in info_files & arduino_files
 
 <br><br>
 
